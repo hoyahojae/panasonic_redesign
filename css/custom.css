@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.custom {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.custom .inner {
+  height: 420px;
+  background-color: #f1f1f1;
+}
+
+.custom .custom__card {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom .custom__card .card .more {
+  width: 210px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 44px;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+}
+.custom .custom__card .card:last-child .more {
+  margin-right: 0;
+}
+.custom .custom__card .card .more .card__icon {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.custom .custom__card .card.onecard .more .card__icon {
+  background-image: url("../images/download_icon-05.png");
+}
+.custom .custom__card .card.twocard .more .card__icon {
+  background-image: url("../images/qna_icon-06.png");
+}
+.custom .custom__card .card.threecard .more .card__icon {
+  background-image: url("../images/sevicecenter_icon-07.png");
+}
+.custom .custom__card .card.fourcard .more .card__icon {
+  background-image: url("../images/serviceprotect_icon-08.png");
+}
+.custom .custom__card .card .more .card__text {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+
+}
+.custom .custom__card .card .more .card__text .card__text__inner {
+  width: 170px;
+  height: 70px;
+
+}
+.card__text h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card__text span {
+  color: #444;
+  letter-spacing: -1px;
+}
+.custom .custom__card .card .more:hover {
+  background-color: #444;
+}
+.custom .custom__card .card .more:hover .card__text h1,
+.custom .custom__card .card .more:hover .card__text span {
+  color: #f1f1f1;
+}
+.custom .custom__card .card.onecard .more:hover .card__icon {
+  background-image: url("../images/download_white_icon-17.png");
+}
+.custom .custom__card .card.twocard .more:hover .card__icon {
+  background-image: url("../images/qna_white_icon-18.png");
+}
+.custom .custom__card .card.threecard .more:hover .card__icon {
+  background-image: url("../images/sevicecenter_white_icon-19.png");
+}
+.custom .custom__card .card.fourcard .more:hover .card__icon {
+  background-image: url("../images/serviceprotect_white_icon-20.png");
+}

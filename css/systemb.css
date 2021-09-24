@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+figure {
+  width: 100%;
+  background-color: #000;
+}
+figure .inner {
+  height: 675px;
+}
+
+.systemb .swiper {
+  width: 1200px;
+  height: 675px;
+  position: relative;
+}
+.systemb .swiper-pagination {
+  width: 1200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+.systemb .swiper-pagination .swiper-pagination-bullet {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f1f1f1;
+  background-color: transparent;
+  border-radius: 0;
+  opacity: 10;
+  width: auto;
+}
+.systemb .swiper-pagination .swiper-pagination-bullet span {
+  margin-right: 70px;
+}
+.systemb .swiper-pagination .swiper-pagination-bullet:last-child span {
+  margin-right: 0;
+}
+.systemb .swiper-pagination .swiper-pagination-bullet:hover {
+  opacity: .8;
+}
+.systemb .swiper-pagination .swiper-pagination-bullet-active span {
+  border-bottom: 2px solid #f1f1f1;
+}
+.systemb .swiper-pagination .swiper-pagination-bullet-active:hover {
+  opacity: 10;
+}
+.systemb .swiper-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.systemb .swiper .headline {
+  z-index: 1;
+  color: #f1f1f1;
+  position: absolute;
+}
+
+.systemb video {
+  width: 1200px;
+}
+.business__btn {
+  z-index: 1;
+  position: absolute;
+  bottom:40px;
+  left: 560px;
+}

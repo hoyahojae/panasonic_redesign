@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.newp {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.newp .swiper {
+  width: calc(1200px * 3);
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: calc((1200px *3) / -2);
+  background-color: #f1f1f1;
+}
+.newp .swiper-pagination .swiper-pagination-bullet {
+  background-color: #444444;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  outline: none;
+}
+.newp .swiper-pagination .swiper-pagination-bullet:last-child {
+  margin-right: 0;
+}
+.newp .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f1f1f1;
+}
+.newp .swiper-prev,
+.newp .swiper-next {
+  width: 37px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  opacity: .8;
+  z-index: 1;
+  cursor: pointer;
+}
+.newp .swiper-prev {
+  left: 1240px;
+}
+.newp .swiper-next {
+  right: 1240px;
+}
+.newp .swiper__icon {
+  cursor: pointer;
+}
+.newp .swiper-prev:hover,
+.newp .swiper-next:hover {
+  opacity: 10;
+}
+.newp .swiper-slide {
+  opacity: .5;
+  position: relative;
+}
+.newp .swiper-slide-active {
+  opacity: 1;
+}
+
+.newp__text {
+  z-index: 1;
+  position: absolute;
+}
+.newp__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.newp__text h1 {
+  font-size: 36px;
+  font-weight: 800;
+}
+.newp__text h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.newp__text h2 b {
+  font-weight: 800;
+}
+.slide1 .newp__text,
+.slide2 .newp__text {
+  width: 1200px;
+  height: 300px;
+  top: 80px;
+  left: 0;
+  text-align: center;
+  padding-top: 56px;
+}
+.slide1 .newp__text h2,
+.slide2 .newp__text h2 {
+  color: #f1f1f1;
+  margin-bottom: 10px;
+}
+.slide1 .newp__text h1,
+.slide2 .newp__text h1 {
+  color: #f1f1f1;
+  margin-bottom: 24px;
+}
+
+.slide2 .newp__text h2 {
+  margin-bottom: 3px;
+}
+.slide2 .newp__text h1 {
+  margin-bottom: 12px;
+}
+
+.slide3 .newp__text {
+  right: 120px;
+  top: 400px;
+  text-align: right;
+}
+.slide3 .newp__text h1,
+.slide3 .newp__text h2 {
+  color: #f1f1f1;
+}
+.slide3 .newp__text h1 {
+  margin-bottom: 10px;
+}
+
+.slide4 .newp__text {
+  left: 150px;
+  top: 400px;
+}
+.slide4 .newp__text h1 {
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+
+.slide5 .newp__text {
+  padding: 20px;
+  top: 380px;
+  left: 150px;
+}
+.slide5 .newp__text h1 {
+  color: #003FC5;
+  margin-bottom: 20px;
+}
+.slide5 .newp__text h2 {
+  color: #0C54F0;
+  margin-bottom: 5px;
+}

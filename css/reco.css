@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.reco {
+  width: 100%;
+  background-color: #fff;
+}
+.reco .inner {
+  height: 500px;
+  background-color: #fff;
+}
+
+.reco__card {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+}
+.reco__card__inner {
+  width: 1120px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.reco__card__btn .more {
+  width: 550px;
+  height: 180px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  transition: all ease-out .3s;
+}
+.reco__card__btn .reco__icon {
+  width: 180px;
+  height: 100%;
+  position: relative;
+}
+.reco__icon__img {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 20px;
+  left: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 140px;
+}
+.reco__card__btn.onecard .reco__icon__img {
+  background-image: url("../images/recommend_icon-01.png");
+}
+.reco__card__btn.twocard .reco__icon__img {
+  background-image: url("../images/new_icon-02.png");
+}
+.reco__card__btn.threecard .reco__icon__img {
+  background-image: url("../images/gift_icon-03.png");
+}
+.reco__card__btn.fourcard .reco__icon__img {
+  background-image: url("../images/best_icon-04.png");
+}
+.reco__card__btn .reco__text {
+  width: 340px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.reco__text h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.reco__text span {
+  font-size: 18px;
+  color: #444;
+}
+.reco__btn {
+  width: 340px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+}
+.reco__card__btn .more:hover {
+  background-color: #003FC5;
+}
+.reco__card__btn .more:hover .reco__text h1,
+.reco__card__btn .more:hover .reco__text span {
+  color: #f1f1f1;
+}
+.reco__card__btn.onecard .more:hover .reco__icon__img {
+  background-image: url("../images/recommend_white_icon-13.png");
+}
+.reco__card__btn.twocard .more:hover .reco__icon__img {
+  background-image: url("../images/new_white_icon-14.png");
+}
+.reco__card__btn.threecard .more:hover .reco__icon__img {
+  background-image: url("../images/gift_white_icon-15.png");
+}
+.reco__card__btn.fourcard .more:hover .reco__icon__img {
+  background-image: url("../images/best_white_icon-16.png");
+}
+.reco__card__btn .more:hover .reco__btn .btn.btn--black {
+  background-color: #f1f1f1;
+  color: #2a2a2a;
+  border-color: #f1f1f1;
+  color: #003FC5;
+}
+.reco__card__btn .more .reco__btn .btn.btn--black:hover {
+  background-color: #f1f1f1;
+  color: #2a2a2a;
+  border-color: #f1f1f1;
+  color: #003FC5;
+}
